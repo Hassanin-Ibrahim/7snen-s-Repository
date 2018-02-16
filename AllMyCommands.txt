@@ -1,0 +1,28 @@
+a) $ git init
+$ git config --global user.name "Hassanin-Ibrahim"
+$ git config --global user.email hassneanbarakat@gmail.com
+$ git remote add origin https://github.com/Hassanin-Ibrahim/7snen-s-Repository.git
+
+
+
+
+b) $ git add .
+
+c) $ git status
+   $ git commit -m ' before deleting'  
+   $ git rm '2nd file.docx'
+d) $ git commit -m 'after deleting'
+   $ git log
+   $ git revert 67352f90706bedabe703cc40e4f88c7c262d135f
+e) it has already commited by the last command
+
+f)$ git push origin master
+h)$ git branch ReadMe
+  $ git checkout ReadMe
+i)$ git add README.md
+j)$ git commit -m ' after adding README.md from branch ReadMe'
+k)$ git checkout master
+  $ git merge ReadMe
+l) $ git add .
+   $ git commit -m 'Allmycommands'
+   $ git push origin master
